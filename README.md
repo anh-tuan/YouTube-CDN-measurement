@@ -7,16 +7,18 @@
 
 ### Installation (Linux, UNIX)
 1. Open Terminal
-2. Check PIP version: pip -V
-3. Upgrade to latest version of PIP: sudo pip install --upgrade pip
+2. Check PIP version: ```pip -V```
+3. Upgrade to latest version of PIP: ```sudo pip install --upgrade pip```
 4. Install required packages: 
-  - pip install requests
-  - pip install mysql-connector
-  - pip install schedule
+  - ```pip install requests```
+  - ```pip install mysql-connector```
+  - ```pip install schedule```
 5. Edit MySQL connection:
- conn = mysql.connector.connect(host='you_server_ip',
+```python
+conn = mysql.connector.connect(host='you_server_ip',
 	                              database='your_db_name',
 	                              user='your_username',
 	                              password='your_password')
-6. run with command: sudo python measurement.py
+```
+6. run with command: ```sudo python measurement.py```
   
