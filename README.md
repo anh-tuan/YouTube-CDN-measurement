@@ -1,13 +1,17 @@
 # YouTube CDN measurement
+#### This guide for CentOS / RHEL
 
 ### Requirements
-- Python 2.7
-- Package requests, mysql-connector, schedule
+- Python 2.7 installed
+- Package requests, mysql-connector, schedule installed
 - MySQL Database server
 
 ### Installation (Linux, UNIX)
 1. Open Terminal
-2. Check PIP version: ```pip -V```
+2. Check ***PIP*** version: ```pip -V```
+3. If got ```pip: command not found``` we need to install ***pip*** by command:
+- ```yum --enablerepo=extras install epel-release```
+- ```yum install python-pip```
 3. Upgrade to latest version of PIP: ```sudo pip install --upgrade pip```
 4. Install required packages: 
   - ```pip install requests```
