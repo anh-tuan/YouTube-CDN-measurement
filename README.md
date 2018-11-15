@@ -2,8 +2,8 @@
 #### This guide for CentOS / RHEL
 
 ### Requirements
-- Python 2.7 installed
-- Package requests, mysql-connector, schedule installed
+- Python ***2.7*** installed
+- Package ***requests***, ***mysql-connector***, ***schedule*** installed
 - MySQL Database server
 
 ### Installation (Linux, UNIX)
