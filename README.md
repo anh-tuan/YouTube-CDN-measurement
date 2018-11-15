@@ -1,5 +1,5 @@
 # YouTube CDN measurement
-#### This guide for CentOS / RHEL
+#### This instruction for CentOS / RHEL
 
 ### Requirements
 - Python ***2.7*** installed
