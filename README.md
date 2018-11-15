@@ -1,4 +1,4 @@
-# YouTube-CDN-measurement
+# YouTube CDN measurement
 
 ### Requirements
 - Python 2.7
